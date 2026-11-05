@@ -7,10 +7,11 @@
 <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="uniquindio.edu.co.empresajavafx.viewController.PrimaryController">
     <children>
-        <Label text="Bienvenidos a JavaFX" />
+        <Label text="Haga click al botón para acceder a la lista de clientes" />
         <Button fx:id="primaryButton" onAction="#onOpenCrudCliente" text="Gestión de clientes" />
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 </VBox>
+
